@@ -13,11 +13,17 @@ stage('First Build'){
   stage('First Build 1'){
 
       steps{
-        sh 'echo "Build Completed Sucessfully 1".'
+        sh 'echo "Build Completed Sucessfully 2".'
           }
   }
  
 
+  stage('First Build 2'){
+
+      steps{
+        sh 'echo "Build Completed Sucessfully 3".'
+          }
+  }
 
 
 }
